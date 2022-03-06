@@ -1,0 +1,132 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(253, 228, 232);
+    background-image: url("./img/fondo1.jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+/*Estilo Header*/
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(255, 73, 216);
+    font-weight: bolder;
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(252, 255, 77);
+    border-bottom: 5px solid rgb(138, 255, 249);
+    border-bottom-style:ridge;
+    justify-content: space-between;  
+    align-items: center;
+    padding: 5px; 
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 120px;
+    margin-right: 20px;
+}
+
+
+.logo-nombre img {
+    height: 120px;
+}
+
+nav a {
+    font-weight: bolder;
+    font-style:oblique;
+    padding-right: 10px;
+    transform: scale(1);
+}
+
+nav a:hover {
+    color:rgb(70, 2, 255);
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+@media (max-with: 800px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+/* Estilos Invetarios */
+h1{
+    color:rgb(31, 110, 228);
+    font-size: 50px;
+    text-align: center;
+    font-weight:bold;
+}
+
+.tabla1, .tabla2, .tabla3 {
+    text-align: center;
+}
+
+.tabla1 table, .tabla2 table, .tabla3 table{
+    margin: 0 auto;
+    text-align: left;
+}
+
+th{
+    background-color:rgb(0, 217, 255);
+    align-items: center;
+    justify-items: center;
+    border: 1px solid black;
+    margin:0 auto;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    color: hsl(236, 100%, 50%);
+    padding: 20px 20px 20px 20px;
+}
+
+td{
+    background-color:rgb(247, 255, 174);
+    align-items: center;
+    justify-items: center;
+    border: 1px solid black;
+    margin:0 auto;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(162, 0, 255);
+    padding: 20px 20px 20px 20px;
+}
+
+
+h2{
+    color:blueviolet;
+    font-size: 30px;
+    text-align: center;
+    font-weight:bold;
+}
+
+/* Estilo Pie de Pagida*/
+
+.pie-pagina .grupo1 {
+    background-color:rgb(104, 232, 255);
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo1 small {
+    font-size: 15px;
+}
